@@ -1,9 +1,12 @@
 body {
     font-family: Roboto, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
 }
 
 img {
-    width: 250px;
+    width: 300px;
 }
 
 ul {
@@ -27,15 +30,16 @@ a {
 .header {
     background-color: #1f2937;
     color: white;
-
+    height: 350px;
     display: flex;
     flex-direction: column;
 }
 
 .top {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     font-weight: bolder;
+    margin: 8px 200px 8px 200px ;
 }
 
 .top-link-list {
@@ -44,6 +48,39 @@ a {
     font-weight: lighter;
 }
 
+.mid {
+    display: flex;
+    justify-content: flex-start;
+    margin: 8px 200px 8px 200px;
+    align-items: center;
+    flex: 1 0 auto;
+}
 
+.page-title {
+    width: 300px;
+    font-size: xx-large;
+    font-weight: bolder;
+    display: flex;
+    margin: 2px;
+}
 
+.subtext {
+    margin: 2px;
+    font-size: small;
+    display: flex;
+    width: 350px;
+}
+
+.top-button {
+    margin: 16px 0px;
+    padding: 8px;
+    border:0px;
+    border-radius: 8px;
+    color: white;
+    background-color: #3882f6;
+    font-size: small;
+    font-weight: bold;
+    display: flex;
+
+}
 
