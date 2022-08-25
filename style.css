@@ -104,11 +104,13 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 16px;
+    margin-bottom:64px;
 }
 
 .photos {
     display: flex;
-    gap: 32px;
+    gap: 64px;
 }
 
 .photo-text-pair {
@@ -122,4 +124,26 @@ a {
     font-weight: light;
     font-size: small;
     text-align: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 75px 540px 75px 550px;
+    background-color: #e5e7eb;
+}
+
+.text {
+    display: flex;
+    flex-wrap: wrap;
+
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: lighter;
+}
+
+.morty {
+    text-align: end;
 }
