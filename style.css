@@ -130,7 +130,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 75px 540px 75px 550px;
+    padding: 50px 540px 40px 550px;
     background-color: #e5e7eb;
 }
 
@@ -146,4 +146,54 @@ a {
 
 .morty {
     text-align: end;
+    font-weight: bold;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    margin: 50px 540px 50px 550px;
+    border-radius: 6px;
+    color: #f9faf8;
+    padding: 16px 32px 16px 32px ;
+}
+
+.call-text {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.call-text p {
+    margin: 1px;
+}
+
+.call-text .small {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.call-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #f9faf8;
+    border-radius: 4px;
+    font-weight: bolder;
+    font-size: 12px;
+    padding: 4px 16px 4px 16px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-weight: lighter;
+    font-size: small;
 }
