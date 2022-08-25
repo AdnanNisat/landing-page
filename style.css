@@ -92,3 +92,34 @@ a {
     display: flex;
 }
 
+.photo-text-pair img {
+    width: 150px;
+    border: 2px solid #3882f6;
+    
+    border-radius: 4px;
+}
+
+.mid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.photos {
+    display: flex;
+    gap: 32px;
+}
+
+.photo-text-pair {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    font-weight: light;
+    font-size: small;
+    text-align: center;
+}
